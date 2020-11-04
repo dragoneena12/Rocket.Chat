@@ -1,0 +1,9 @@
+version: "3"
+services:
+  meteor:
+    image: geoffreybooth/meteor-base
+    ports:
+      - 3001:3000
+    volumes:
+      - .:/mnt
+    tty: true
